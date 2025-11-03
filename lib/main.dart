@@ -33,7 +33,10 @@ class Home extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Expanded(
-            flex: 2,
+              child: Image.asset('assets/logo.avif')
+          ),
+          Expanded(
+            flex: 1,
             child: Container(
               color: Colors.cyan,
               padding: EdgeInsets.all(30),
@@ -41,6 +44,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Expanded(
+            flex: 1,
             child: Container(
               color: Colors.pinkAccent,
               padding: EdgeInsets.all(30),
@@ -48,6 +52,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Expanded(
+            flex: 1,
             child: Container(
               color: Colors.amber,
               padding: EdgeInsets.all(30),
